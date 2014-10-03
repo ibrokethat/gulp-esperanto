@@ -1,0 +1,47 @@
+{
+  "name": "gulp-esperanto",
+  "version": "0.0.1",
+  "description": "es6 module to cjs transform",
+  "license": "MIT",
+  "repository": "ibrokethat/gulp-esperanto",
+  "author": {
+    "name": "Simon Jefford",
+    "email": "si@ibrokethat.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "esnext",
+    "rewriting",
+    "transformation",
+    "syntax",
+    "codegen",
+    "desugaring",
+    "javascript",
+    "ecmascript",
+    "language",
+    "es5",
+    "es6",
+    "ES.next",
+    "harmony",
+    "compiler",
+    "transpiler"
+  ],
+  "dependencies": {
+    "esperanto": "^0.3.11",
+    "gulp-util": "^3.0.0",
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "gulp-sourcemaps": "^1.1.1",
+    "mocha": "*"
+  }
+}
